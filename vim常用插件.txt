@@ -1,0 +1,16 @@
+nerdtree 
+https://github.com/scrooloose/nerdtree.git
+
+nerdcommenter  
+https://github.com/scrooloose/nerdcommenter.git
+
+snipmate
+https://github.com/msanders/snipmate.vim.git
+
+vim-pandoc  
+https://github.com/dsanson/vim-pandoc.git
+
+git submodule add https://github.com/scrooloose/nerdcommenter.git  Vim/vimfiles/bundle/nerdcommenter
+git submodule add https://github.com/scrooloose/nerdtree.git Vim/vimfiles/bundle/nerdtree
+git submodule add https://github.com/msanders/snipmate.vim.git  Vim/vimfiles/bundle/snipmate
+git submodule add https://github.com/dsanson/vim-pandoc.git  Vim/vimfiles/bundle/vim-pandoc

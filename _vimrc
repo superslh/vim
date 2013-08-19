@@ -6,15 +6,13 @@
 "http://www.vimbits.com/
 "https://github.com/beiyuu/vimfiles/blob/master/_vimrc
 
-
+"插件管理pathogn生效
+"插件放到autoload里面去
+call pathogen#infect()
 
 set nocompatible
 source $VIMRUNTIME/mswin.vim
 behave mswin        "兼容windws命令
-
-"插件管理pathogn生效
-"call pathogen#infect()
-
 set smartindent
 filetype on
 filetype plugin on
@@ -143,10 +141,4 @@ inoremap <c-j> <down>
 inoremap <c-k> <up>
 inoremap <c-l> <right>
 inoremap <c-h> <left>
-
-
-"受http://beiyuu.com/git-vim-tutorial/这篇文章启发，用Vundle管理插件
-"Vundle Settings {
-set rtp+=vimfiles/bundle/vundle/
-call vundle#rc()
 

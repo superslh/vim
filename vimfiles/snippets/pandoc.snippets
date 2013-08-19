@@ -1,0 +1,42 @@
+#
+# Snipmate Snippets for Pandoc Markdown
+#
+# Many snippets have starred versions, i.e., versions
+# that end with an asterisk (`*`). These snippets use
+# vim's `"*` register---i.e., the contents of the 
+# system clipboard---to insert text.
+
+# Insert Title Block
+snippet h1
+	#${1}#  {#${2:divID}}
+	${3}
+snippet h2
+	##${1}##  {#${2:divID}}
+	${3}
+snippet h3
+	###${1}###  {#${2:divID}}}
+	${3}
+snippet h4
+	####${1}#### {#${2:divID}}
+	${3}
+snippet b
+	**${1}**${2}
+
+snippet i
+	*${1}*${2}
+
+snippet s
+	~~${1}~~${2}
+
+snippet tab
+	|${1:Fisrt Header} |${2:Second Header}|${3:Second Header}|
+	|-------------|-------------|-------------|
+	|${4:Content Cell} |${5:Content Cell} |${6:Content Cell}
+	${7}
+
+snippet foot
+	[^${1:footname}]
+
+	[^${2:the same footname}]:${3: note}
+
+	${4}

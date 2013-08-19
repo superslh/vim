@@ -1,0 +1,12 @@
+[submodule "Vim/vimfiles/bundle/nerdcommenter"]
+	path = Vim/vimfiles/bundle/nerdcommenter
+	url = https://github.com/scrooloose/nerdcommenter.git
+[submodule "Vim/vimfiles/bundle/nerdtree"]
+	path = Vim/vimfiles/bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule "Vim/vimfiles/bundle/snipmate"]
+	path = Vim/vimfiles/bundle/snipmate
+	url = https://github.com/msanders/snipmate.vim.git
+[submodule "Vim/vimfiles/bundle/vim-pandoc"]
+	path = Vim/vimfiles/bundle/vim-pandoc
+	url = https://github.com/dsanson/vim-pandoc.git
